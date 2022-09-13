@@ -6,3 +6,11 @@
 - configurar inportação do express colocando "type": "module" no package.json, em sequencia mudar a extensão do server.js para server.mjs
 
 ## Instalar o gerenciador de rotas hoppscotch
+
+## Instalar TypeScript
+
+`npm i typescript -D`
+
+execultar
+
+`npx tsc --init`

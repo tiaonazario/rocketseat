@@ -1,4 +1,4 @@
-<h1 align="center">eSports</h1>
+<h1 align="center">eSports Server</h1>
 
 ## 📝 Description
 
