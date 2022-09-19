@@ -75,3 +75,34 @@ npx prisma migrate dev
 ```powershell
 npx prisma studio
 ```
+
+### Prisma client
+
+```powershell
+npm i @prisma/client
+```
+
+### Cria os types para o prisma
+
+> Cria no arquivo `.\node_modules\.prisma/client/index.d.ts`
+
+```powershell
+npx prisma generate
+```
+
+### Atualizar o scripts do package.json
+
+```json
+"dev": "tsnd --exit-child src/server.ts"
+```
+
+> Se não fizer isso o node não atualiza automaticamente
+
+## Instalar Cors
+
+> Biblioteca que proteje o back-end de um front-end que não queremos que acesse
+
+```powershell
+npm i cors
+npm i @types/cors -D
+```
